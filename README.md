@@ -1,8 +1,4 @@
-
-
-
 # Módulo de pagamento para Magento 2
-
 Testado na versão 2.3.1 e superior. 
 
 ## Métodos:
