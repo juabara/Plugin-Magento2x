@@ -1,0 +1,27 @@
+{
+  "name": "kesterpay/gateway-sdk",
+  "description": "SDK PHP GATEWAY",
+  "type": "library",
+  "authors": [
+    {
+      "name": "dev",
+      "email": "dev@kesterpay.com"
+    }
+  ],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Gateway\\API\\": "src/gateway/API/"
+    },
+    "psr-0": {
+      "Gateway\\API\\": "src/gateway/API"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-json": "*",
+    "ext-curl": "*"
+  }
+}
+

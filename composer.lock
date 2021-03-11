@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dca2479338d7e46220456c400f708783",
+    "packages": [
+        {
+            "name": "kesterpay/gateway-sdk",
+            "version": "1.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kesterpay/gateway-sdk.git",
+                "reference": "2421cc38207b1b7a88752971e5529d93217da423"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kesterpay/gateway-sdk/zipball/2421cc38207b1b7a88752971e5529d93217da423",
+                "reference": "2421cc38207b1b7a88752971e5529d93217da423",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gateway\\API\\": "src/gateway/API/"
+                },
+                "psr-0": {
+                    "Gateway\\API\\": "src/gateway/API"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dev",
+                    "email": "dev@kesterpay.com"
+                }
+            ],
+            "description": "SDK PHP GATEWAY",
+            "time": "2021-01-31T02:00:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-curl": "*",
+        "ext-iconv": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-simplexml": "*"
+    },
+    "platform-dev": []
+}

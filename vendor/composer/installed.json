@@ -1,0 +1,45 @@
+[
+    {
+        "name": "kesterpay/gateway-sdk",
+        "version": "1.0.13",
+        "version_normalized": "1.0.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kesterpay/gateway-sdk.git",
+            "reference": "2421cc38207b1b7a88752971e5529d93217da423"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kesterpay/gateway-sdk/zipball/2421cc38207b1b7a88752971e5529d93217da423",
+            "reference": "2421cc38207b1b7a88752971e5529d93217da423",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=7.0"
+        },
+        "time": "2021-01-31T02:00:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Gateway\\API\\": "src/gateway/API/"
+            },
+            "psr-0": {
+                "Gateway\\API\\": "src/gateway/API"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "dev",
+                "email": "dev@kesterpay.com"
+            }
+        ],
+        "description": "SDK PHP GATEWAY"
+    }
+]
