@@ -16,7 +16,7 @@ FControl, ClearSale e Konduto
 
 ## Instalação
  
-    composer require kesterpay/plugin-magento2x
+    composer require kesterpay/plugin-magento2x:v2.4.2
     bin/magento cache:clean
     bin/magento setup:upgrade
     bin/magento setup:di:compile
