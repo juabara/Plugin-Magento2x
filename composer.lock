@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "581e8d8a138ea887f4d112bd6cd730a8",
+    "content-hash": "cff1fcaaf8286e100664c04c216aa283",
     "packages": [
         {
             "name": "kesterpay/gateway-sdk",
