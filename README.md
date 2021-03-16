@@ -1,8 +1,4 @@
-
-
-
 # Módulo de pagamento para Magento 2
-
 Testado na versão 2.3.1 e superior. 
 
 ## Métodos:
@@ -20,7 +16,7 @@ FControl, ClearSale e Konduto
 
 ## Instalação
  
-    composer require kesterpay/plugin-magento2x:latest
+    composer require kesterpay/plugin-magento2x
     bin/magento cache:clean
     bin/magento setup:upgrade
     bin/magento setup:di:compile
