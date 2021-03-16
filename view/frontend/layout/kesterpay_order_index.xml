@@ -6,7 +6,7 @@
             <block class="Magento\Framework\View\Element\Messages" name="messages" as="messages" template="Magento_Theme::messages.phtml"/>
         </referenceContainer>
         <referenceContainer name="content">
-            <block class="Kesterpay\Gateway\Block\Order" name="Kesterpay_Gateway_order" template="order.phtml"></block>
+            <block class="Kesterpay\Gateway\Block\Order" name="kesterpay_gateway_order" template="order.phtml"></block>
         </referenceContainer>        
     </body>
 </page>
