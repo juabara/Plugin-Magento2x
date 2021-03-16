@@ -19,7 +19,7 @@
         "ext-libxml": "*",
         "ext-mbstring": "*",
         "ext-simplexml": "*",
-        "kesterpay/gateway-sdk": "^1.0.0"
+        "kesterpay/gateway-sdk": "^1.0.13"
     },
     "authors": [
         {
