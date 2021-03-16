@@ -349,10 +349,10 @@ class Cc extends \Magento\Payment\Model\Method\Cc
 		if ($pm == 'firstdata') $name = Acquirers::FIRSTDATA;		
 		if ($pm == 'komerci_webservice') $name = Acquirers::REDE_KOMERCI_WEBSERVICE;
 		if ($pm == 'komerci_integrado') $name = Acquirers::REDE_KOMERCI_INTEGRADO;
-		if ($pm == 'privatelabel') $name = Acquirers::VERANCARD;
+		if ($pm == 'lucree') $name = Acquirers::LUCREE;
 		if ($pm == 'stone') $name = Acquirers::STONE;
 		if ($pm == 'worldpay') $name = Acquirers::WORLDPAY;
-	    	if ($pm == 'zoop') $name = Acquirers::ZOOP;
+		if ($pm == 'zoop') $name = Acquirers::ZOOP;
         if ($pm == 'gateway') $name = Acquirers::KESTERPAY;
         
         return $name;

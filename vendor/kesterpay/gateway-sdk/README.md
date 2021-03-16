@@ -262,6 +262,7 @@ $response = $gateway->Rebill($transaction);
 |KESTERPAY|Acquirers::KESTERPAY|                          
 |ZOOP|Acquirers::ZOOP|     
 |PAGSEGURO V4.0|Acquirers::PAGSEGUROV4|                      
+|LUCREE|Acquirers::LUCREE|                      
 
 ### Códigos das bandeiras de cartões
 |Nome|Constante|

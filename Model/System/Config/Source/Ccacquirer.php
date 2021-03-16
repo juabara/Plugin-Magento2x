@@ -29,7 +29,7 @@ class Ccacquirer implements \Magento\Framework\Option\ArrayInterface
         $options[] = array('value'=>'global_payments','label'=> __('GLOBAL PAYMENTS'));
         $options[] = array('value'=>'komerci_webservice','label'=> __('REDE - KOMERCI WEBSERVICE'));
         $options[] = array('value'=>'komerci_integrado','label'=> __('REDE - KOMERCI INTEGRADO'));
-        $options[] = array('value'=>'privatelabel','label'=> __('PrivateLabel'));
+        $options[] = array('value'=>'lucree','label'=> __('Lucree'));
         $options[] = array('value'=>'stone','label'=> __('STONE PAGAMENTOS'));
         $options[] = array('value'=>'worldpay','label'=> __('World Pay'));
         $options[] = array('value'=>'gateway','label'=> __('Kesterpay'));

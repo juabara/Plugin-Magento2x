@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cff1fcaaf8286e100664c04c216aa283",
+    "content-hash": "c2de396c63b76863d2d7d9674c5a2cb1",
     "packages": [
         {
             "name": "kesterpay/gateway-sdk",
-            "version": "1.0.13",
+            "version": "1.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kesterpay/gateway-sdk.git",
-                "reference": "2421cc38207b1b7a88752971e5529d93217da423"
+                "reference": "7ea2f71a0d0292b10706b03dc7f74646a52315d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kesterpay/gateway-sdk/zipball/2421cc38207b1b7a88752971e5529d93217da423",
-                "reference": "2421cc38207b1b7a88752971e5529d93217da423",
+                "url": "https://api.github.com/repos/kesterpay/gateway-sdk/zipball/7ea2f71a0d0292b10706b03dc7f74646a52315d9",
+                "reference": "7ea2f71a0d0292b10706b03dc7f74646a52315d9",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 }
             ],
             "description": "SDK PHP GATEWAY",
-            "time": "2021-01-31T02:00:39+00:00"
+            "time": "2021-03-16T20:49:32+00:00"
         }
     ],
     "packages-dev": [],

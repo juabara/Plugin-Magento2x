@@ -38,5 +38,6 @@ abstract class Acquirers
     const KESTERPAY                   = 33;
     const ZOOP                        = 34;
     const PAGSEGUROV4                 = 35;
+    const LUCREE                      = 36;
 
 }
