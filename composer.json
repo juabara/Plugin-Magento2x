@@ -1,9 +1,8 @@
 {
     "name": "kesterpay/plugin-magento2x",
-    "description": "Magento 2 Transparent Payment Module - Gateway Transparente para Magento 2",
+    "description": "Plugin para Magento 2.x da plataforma de pagamento Kesterpay",
     "type": "magento2-module",
     "license": "GPL-3.0-or-later",
-    "version": "v2.4.2",
     "autoload": {
         "files": [
             "registration.php"
@@ -20,6 +19,7 @@
         "ext-mbstring": "*",
         "ext-simplexml": "*",
         "kesterpay/gateway-sdk": "^1.0.13"
+
     },
     "authors": [
         {
