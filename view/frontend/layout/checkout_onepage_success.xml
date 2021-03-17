@@ -3,10 +3,9 @@
     <body>
         <referenceContainer name="content">
 			<block name="kesterpay.gatewaypro.paymentinfo" class="Kesterpay\Gateway\Block\Payment\Info"
-				template="Kesterpay_Gateway::info.phtml" after="-">
+				template="Kesterpay_Gateway::info.phtml" before="-">
           </block>
       </referenceContainer>   
-      <referenceBlock name="checkout.success" remove="true"/>     
       <referenceBlock name="checkout.registration" remove="true"/>
     </body>
 </page>
