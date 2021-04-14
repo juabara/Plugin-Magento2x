@@ -27,6 +27,7 @@ class Ccacquirer implements \Magento\Framework\Option\ArrayInterface
         $options[] = array('value'=>'getnet','label'=> __('GETNET'));
         $options[] = array('value'=>'granito','label'=> __('Granito Pagamentos'));
         $options[] = array('value'=>'global_payments','label'=> __('GLOBAL PAYMENTS'));
+        $options[] = array('value'=>'pagsegurov4','label'=> __('PagSeguro V4'));
         $options[] = array('value'=>'komerci_webservice','label'=> __('REDE - KOMERCI WEBSERVICE'));
         $options[] = array('value'=>'komerci_integrado','label'=> __('REDE - KOMERCI INTEGRADO'));
         $options[] = array('value'=>'lucree','label'=> __('Lucree'));
@@ -34,7 +35,7 @@ class Ccacquirer implements \Magento\Framework\Option\ArrayInterface
         $options[] = array('value'=>'worldpay','label'=> __('World Pay'));
         $options[] = array('value'=>'gateway','label'=> __('Kesterpay'));
         $options[] = array('value'=>'zoop','label'=> __('Zoop'));
-        $options[] = array('value'=>'pagsegurov4','label'=> __('PagSeguro V4'));
+        
         return $options;
     }
 }
