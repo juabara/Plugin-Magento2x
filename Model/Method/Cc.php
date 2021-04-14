@@ -353,6 +353,8 @@ class Cc extends \Magento\Payment\Model\Method\Cc
 		if ($pm == 'stone') $name = Acquirers::STONE;
 		if ($pm == 'worldpay') $name = Acquirers::WORLDPAY;
 		if ($pm == 'zoop') $name = Acquirers::ZOOP;
+		if ($pm == 'pagsegurov4') $name = Acquirers::PAGSEGUROV4;
+	    
         if ($pm == 'gateway') $name = Acquirers::KESTERPAY;
         
         return $name;
